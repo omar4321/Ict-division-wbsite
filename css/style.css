@@ -165,7 +165,10 @@
 
 
   @media (max-width: 57em) { 
-    
+    .hero{
+      margin-top: 60px;
+      width: 100%;
+    }
     .form-menu{
     display:block;
     justify-content: center;
@@ -214,5 +217,12 @@
     font-weight: 700;
     color: rgb(105, 105, 105);
   }
+
+  body {
+    text-rendering: optimizeSpeed;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   
 }
+
